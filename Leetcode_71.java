@@ -2,6 +2,7 @@ import java.util.Scanner;
 import java.util.Stack;
 
 public class Leetcode_71 {
+    // 可以直接用stack（HTML，括号匹配...）
     public String simplifyPath(String path) {
         if (path.length() == 0 || path == null) return "";
         String[] strings = path.split("/");
